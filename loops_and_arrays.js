@@ -13,7 +13,7 @@ for (var x = 0; x < name.length; x++) {
 var whatever = ["Jeremy", true, 312];
 
 for (var x = 0; x < whatever.length; x++) {
-    console.log(whatever[x])
+    console.log(whatever[x]);
 }
 
 var i = 0;
