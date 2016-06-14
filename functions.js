@@ -3,9 +3,23 @@
 
 
 
+//
+// function test() {
+//   return 'This is returned'
+// };
+//
+// var a = test();
+//
+// alert(a);
+// alert(test());
 
-function test() {
-  alert("Sample")
-};
 
-test();
+function div(x, y)
+{
+  if (y === 0)
+    return "You can't do that by zero.";
+    
+    return x / y;
+}
+var divOfVar = div(72, 2)
+alert(divOfVar);
