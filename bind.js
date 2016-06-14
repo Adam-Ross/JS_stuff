@@ -1,4 +1,4 @@
-// Why use bind.
+// Why use bind.  Bind allows you to set the scope of the "This" that you will be using to a specifi object.
 
 // Alex Brown's
 this.car = "Honda Civic W/ ugly spoiler.";
