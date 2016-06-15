@@ -74,17 +74,32 @@
 //
 // returnedFunction("Garrett");
 
+// var hi = function(type)
+// {
+//   if (type === "boss")
+//     return function(name) {
+//       alert("Hey " + name + ", you're a boss");
+//     };
+//   else
+//     return function(name) {
+//       alert("No way that you are a boss, " + name);
+//     };
+// };
+//
+// returnedFunction = hi("asshole");
+// returnedFunction("Garrett");
+
 var hi = function(type)
 {
   if (type === "boss")
     return function(name) {
-      alert("Hey " + name + ", you're a boss");
+      alert("Your a boss, " + name)
     };
   else
     return function(name) {
-      alert("No way that you are a boss, " + name);
+      alert("You're no boss, " + name)
     };
 };
 
-returnedFunction = hi("asshole");
+var returnedFunction = hi("Nonboss");
 returnedFunction("Garrett");
