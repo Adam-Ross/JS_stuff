@@ -53,7 +53,7 @@ alert(div);
 var person = {
   name: "Mike",
   height: "5'10",
-  religion: "Muslim",
+  religion: "Jew",
   isAdult: function()
   {
     if (this.age < 18)
