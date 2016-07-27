@@ -23,7 +23,7 @@ while (i < 10) {
   i++;
 }
 
-var i = 1;
+var i = 1
 
 do {
   console.log("Iteration : " + i);
