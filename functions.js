@@ -4,22 +4,22 @@
 
 
 //
-// function test() {
-//   return 'This is returned'
-// };
-//
-// var a = test();
-//
-// alert(a);
-// alert(test());
+function test() {
+  return 'This is returned'
+};
+
+var a = test();
+
+alert(a);
+alert(test());
 
 
-function div(x, y)
-{
-  if (y === 0)
-    return "You can't do that by zero.";
-    
-    return x / y;
-}
-var divOfVar = div(72, 2)
-alert(divOfVar);
+// function div(x, y)
+// {
+//   if (y === 0)
+//     return "You can't do that by zero.";
+//
+//     return x / y;
+// }
+// var divOfVar = div(72, 2)
+// alert(divOfVar);
